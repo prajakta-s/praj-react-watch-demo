@@ -1,0 +1,59 @@
+.Productpreview{
+    width: 100%;
+    position: relative;
+    
+  }
+  .Productpreview > img{
+  width: 100%;
+  }
+  .Timesection{
+    /* position:absolute;
+    top: 50%;
+    left:100%;
+    transform: translate(-40%, -70%);
+    color: white;
+    font-size: 50px;
+    font-weight: 600; */
+    position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  }
+  .Heartbeatsection{
+    /* position:absolute;
+    top: 50%;
+    left:100%;
+    transform: translate(-40%, -70%);
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+     */
+     position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  }
+  .Heartbeatsection > p{
+    margin-top: 16px;
+  }
+  .Heartbeatsection > i{
+    color: red;
+    animation: beat 1s infinite;
+  }
+  
+  @keyframes beat {
+   0%{
+     transform: scale(1, 1);
+   } 
+   50%{
+     transform: scale(1.3, 1.3);}
+    100% {
+      transform: scale(1, 1);
+    }
+  }
